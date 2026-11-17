@@ -1,0 +1,263 @@
+{
+  "catalog": "2024-2025",
+  "track": "Computer Science - Software Systems",
+  "_status": "All 20 courses verified against their official catalog pages (CPSC, MATH and CYBR).",
+  "_edge_types": {
+    "prereqs": "solid arrow: must be completed in a strictly EARLIER term",
+    "coreqs": "dashed arrow: same term or earlier",
+    "recommended": "blue arrow: ignored by the planner"
+  },
+  "courses": [
+    {
+      "id": "MATH 1113",
+      "name": "Pre-Calculus",
+      "credits": 3,
+      "prereqs": [],
+      "coreqs": [],
+      "recommended": [],
+      "verified": true,
+      "source": "MATH catalog",
+      "_note": "Catalog credits are variable (3-4); using 3. Catalog prereq is an OR-group (MATH 1125 or 1401 or 1131 or 1111, min C) - all core courses outside the planning set, so no edge is recorded."
+    },
+    {
+      "id": "CPSC 1301K",
+      "name": "Computer Science I",
+      "credits": 4,
+      "prereqs": [],
+      "coreqs": [],
+      "recommended": [],
+      "verified": true,
+      "source": "CPSC catalog 2026"
+    },
+    {
+      "id": "MATH 2125",
+      "name": "Introduction to Discrete Mathematics",
+      "credits": 3,
+      "prereqs": [
+        "MATH 1113"
+      ],
+      "coreqs": [],
+      "recommended": [],
+      "verified": true,
+      "source": "MATH catalog",
+      "_note": "Catalog: MATH 1113 or 1113H or 1131 or 1131H, min C. MATH 1113 is the option inside our set."
+    },
+    {
+      "id": "CPSC 1302K",
+      "name": "Computer Science II",
+      "credits": 4,
+      "prereqs": [
+        "CPSC 1301K"
+      ],
+      "coreqs": [
+        "MATH 1113"
+      ],
+      "recommended": [],
+      "verified": true,
+      "source": "CPSC catalog 2026"
+    },
+    {
+      "id": "CPSC 2105",
+      "name": "Computer Organization",
+      "credits": 3,
+      "prereqs": [
+        "CPSC 1301K"
+      ],
+      "coreqs": [
+        "MATH 2125"
+      ],
+      "recommended": [],
+      "verified": true,
+      "source": "CPSC catalog 2026"
+    },
+    {
+      "id": "CYBR 2159",
+      "name": "Fundamentals of Computer Networks",
+      "credits": 3,
+      "prereqs": [
+        "CPSC 1301K"
+      ],
+      "coreqs": [],
+      "recommended": [],
+      "verified": true,
+      "source": "CYBR catalog 2026",
+      "_note": "Catalog prereq is an OR-group (CPSC 1301 / 1301H / 1301K / 1301I / CSCI 1301 / CPSC 1107, min C). CPSC 1301K is the option inside our planning set. 3-0-3."
+    },
+    {
+      "id": "CYBR 2160",
+      "name": "Intro to Information Security",
+      "credits": 3,
+      "prereqs": [],
+      "coreqs": [
+        "CYBR 2159"
+      ],
+      "recommended": [],
+      "verified": true,
+      "source": "CYBR catalog 2026",
+      "_note": "Catalog reads \"CYBR 2159 (may be taken concurrently) with a minimum grade of C\" - concurrent enrolment is allowed, which is exactly our coreq edge (same term or earlier), not a strict prerequisite. 3-0-3."
+    },
+    {
+      "id": "MATH 5125U",
+      "name": "Discrete Mathematics",
+      "credits": 3,
+      "prereqs": [
+        "MATH 2125"
+      ],
+      "coreqs": [],
+      "recommended": [],
+      "verified": true,
+      "source": "MATH catalog",
+      "_note": "Catalog: MATH 1132 or MATH 2125, min C. MATH 2125 is the option inside our set. No standing restriction - the 5125G section is graduate-only, 5125U is not."
+    },
+    {
+      "id": "CPSC 2108",
+      "name": "Data Structures",
+      "credits": 3,
+      "prereqs": [
+        "CPSC 1302K",
+        "MATH 2125"
+      ],
+      "coreqs": [],
+      "recommended": [
+        "MATH 5125U"
+      ],
+      "verified": true,
+      "source": "CPSC catalog 2026"
+    },
+    {
+      "id": "CPSC 3175",
+      "name": "Object-Oriented Design",
+      "credits": 3,
+      "prereqs": [
+        "CPSC 2108"
+      ],
+      "coreqs": [],
+      "recommended": [],
+      "verified": true,
+      "source": "CPSC catalog 2026"
+    },
+    {
+      "id": "CPSC 3125",
+      "name": "Operating Systems",
+      "credits": 3,
+      "prereqs": [
+        "CPSC 2105",
+        "CPSC 2108"
+      ],
+      "coreqs": [],
+      "recommended": [],
+      "verified": true,
+      "source": "CPSC catalog 2026"
+    },
+    {
+      "id": "CPSC 3131",
+      "name": "Database Systems I",
+      "credits": 3,
+      "prereqs": [
+        "CPSC 1302K"
+      ],
+      "coreqs": [],
+      "recommended": [],
+      "verified": true,
+      "source": "CPSC catalog 2026"
+    },
+    {
+      "id": "CPSC 3165",
+      "name": "Professionalism in Computing",
+      "credits": 2,
+      "prereqs": [],
+      "coreqs": [],
+      "recommended": [],
+      "standing": "JR",
+      "verified": true,
+      "source": "CPSC catalog 2026"
+    },
+    {
+      "id": "CPSC 4115",
+      "name": "Algorithms",
+      "credits": 3,
+      "prereqs": [
+        "CPSC 2108",
+        "MATH 5125U"
+      ],
+      "coreqs": [],
+      "recommended": [],
+      "verified": true,
+      "source": "CPSC catalog 2026"
+    },
+    {
+      "id": "CPSC 4155",
+      "name": "Computer Architecture",
+      "credits": 3,
+      "prereqs": [
+        "CPSC 1302K",
+        "CPSC 2105"
+      ],
+      "coreqs": [],
+      "recommended": [],
+      "verified": true,
+      "source": "CPSC catalog 2026"
+    },
+    {
+      "id": "CPSC 4157",
+      "name": "Computer Networks",
+      "credits": 3,
+      "prereqs": [
+        "CPSC 2108"
+      ],
+      "coreqs": [],
+      "recommended": [],
+      "verified": true,
+      "source": "CPSC catalog 2026"
+    },
+    {
+      "id": "CPSC 4175",
+      "name": "Software Engineering",
+      "credits": 3,
+      "prereqs": [
+        "CPSC 3175"
+      ],
+      "coreqs": [],
+      "recommended": [],
+      "verified": true,
+      "source": "CPSC catalog 2026"
+    },
+    {
+      "id": "CPSC 4176",
+      "name": "Senior Software Engineering",
+      "credits": 3,
+      "prereqs": [
+        "CPSC 4175"
+      ],
+      "coreqs": [],
+      "recommended": [],
+      "verified": true,
+      "source": "CPSC catalog 2026"
+    },
+    {
+      "id": "CPSC 4148",
+      "name": "Theory of Computation",
+      "credits": 3,
+      "prereqs": [
+        "CPSC 4115"
+      ],
+      "coreqs": [],
+      "recommended": [],
+      "verified": true,
+      "source": "CPSC catalog 2026"
+    },
+    {
+      "id": "CPSC 4000",
+      "name": "Baccalaureate Survey",
+      "credits": 0,
+      "prereqs": [],
+      "coreqs": [],
+      "recommended": [],
+      "verified": true,
+      "final_term": true,
+      "source": "CPSC catalog 2026"
+    }
+  ],
+  "_note_final_term": "CPSC 4000 is 0 credits with no prereqs; the catalog requires it in the last term before graduation, enforced via final_term.",
+  "_schema_limitation": "prereqs are ANDed. The catalog uses OR-groups in several places (MATH 5125U: 1132 OR 2125). Where the alternatives sit outside the planning set we record only the one that matters and note it here. A real OR-group would need a boolean expression per course."
+}

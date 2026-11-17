@@ -1,0 +1,65 @@
+{
+  "_note": "Every required course remaining: an incoming freshman.",
+  "courses": [
+    {
+      "id": "MATH 1113"
+    },
+    {
+      "id": "CPSC 1301K"
+    },
+    {
+      "id": "MATH 2125"
+    },
+    {
+      "id": "CPSC 1302K"
+    },
+    {
+      "id": "CPSC 2105"
+    },
+    {
+      "id": "CYBR 2159"
+    },
+    {
+      "id": "CYBR 2160"
+    },
+    {
+      "id": "MATH 5125U"
+    },
+    {
+      "id": "CPSC 2108"
+    },
+    {
+      "id": "CPSC 3175"
+    },
+    {
+      "id": "CPSC 3125"
+    },
+    {
+      "id": "CPSC 3131"
+    },
+    {
+      "id": "CPSC 3165"
+    },
+    {
+      "id": "CPSC 4115"
+    },
+    {
+      "id": "CPSC 4155"
+    },
+    {
+      "id": "CPSC 4157"
+    },
+    {
+      "id": "CPSC 4175"
+    },
+    {
+      "id": "CPSC 4176"
+    },
+    {
+      "id": "CPSC 4148"
+    },
+    {
+      "id": "CPSC 4000"
+    }
+  ]
+}

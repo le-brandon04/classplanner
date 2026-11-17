@@ -1,0 +1,81 @@
+{
+  "catalog": "2024-2025",
+  "_status": "Codes from the 2024-25 program diagram, plus six 4000-level courses supplied by the team and cross-checked against the advisor notes on a real audit. The catalog publishes no term grid for any course, so term availability comes from the program diagram and the schedule of classes; prerequisites, titles and credit hours come from the catalog. All 20 records verified.",
+  "_codes": {
+    "format": "two characters per term, in order Fa Sp Su",
+    "F": "face-to-face",
+    "O": "online",
+    "*": "sometimes (not guaranteed)",
+    "-": "not offered in that mode",
+    "--": "not offered at all that term"
+  },
+  "courses": {
+    "MATH 1113": {
+      "raw": "FO FO FO"
+    },
+    "CPSC 1301K": {
+      "raw": "FO FO F-"
+    },
+    "MATH 2125": {
+      "raw": "F- FO F-"
+    },
+    "CPSC 1302K": {
+      "raw": "FO FO F-"
+    },
+    "CPSC 2105": {
+      "raw": "FO FO --"
+    },
+    "CYBR 2159": {
+      "raw": "FO FO --"
+    },
+    "CYBR 2160": {
+      "raw": "FO FO F-"
+    },
+    "MATH 5125U": {
+      "raw": "F* F* F*"
+    },
+    "CPSC 2108": {
+      "raw": "F- F- F-"
+    },
+    "CPSC 3175": {
+      "raw": "F- F- --"
+    },
+    "CPSC 3125": {
+      "raw": "F- F- --"
+    },
+    "CPSC 3131": {
+      "raw": "FO FO --"
+    },
+    "CPSC 3165": {
+      "raw": "-O -O F-",
+      "_note": "diagram header is Fa Sp May; May treated as summer"
+    },
+    "CPSC 4115": {
+      "raw": "F- -- --"
+    },
+    "CPSC 4155": {
+      "raw": "F- -- --",
+      "_note": "fall only, face-to-face (team)"
+    },
+    "CPSC 4157": {
+      "raw": "FO -- --",
+      "_note": "fall only; also online (team). Online ignored by default, so fall F2F."
+    },
+    "CPSC 4175": {
+      "raw": "F- -- --",
+      "_note": "fall only, face-to-face (team)"
+    },
+    "CPSC 4176": {
+      "raw": "-- F- --",
+      "_note": "spring only, face-to-face (team)"
+    },
+    "CPSC 4148": {
+      "raw": "-- F- --",
+      "_note": "spring only, face-to-face (team)"
+    },
+    "CPSC 4000": {
+      "raw": "F- F- F-",
+      "_note": "Every term. The catalog requires it in \"the last semester prior to graduation\" (CPSC 4000, 0-0-0), and students graduate in fall, spring and summer, so it must be available in all three. Placement is driven by the final_term rule in prereqs.json, not by this row. Source: catalog.columbusstate.edu/course-descriptions/cpsc/"
+    }
+  }
+}

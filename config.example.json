@@ -1,0 +1,17 @@
+{
+  "_comment": "Copy to config.json and edit for your machine. config.json is gitignored.",
+  "tesseract_cmd": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+  "ocr_dpi": 300,
+  "prereq_file": "data/prereqs.json",
+  "offerings_file": "data/offerings.json",
+  "remaining_file": "remaining_courses.json",
+  "output_file": "class_plan.xlsx",
+  "start_term": "Spring 2027",
+  "include_summer": false,
+  "max_credits_per_term": 15,
+  "max_terms": 12,
+  "include_online": false,
+  "_include_online": "false = face-to-face sections only (team decision). An online-only course counts as not offered.",
+  "prior_credits": 0,
+  "_prior_credits": "Credits already earned outside the courses being planned. Needed for class-standing rules like CPSC 3165 (no Freshman/Sophomore)."
+}

@@ -1,0 +1,6 @@
+{
+  "_note": "Shape of parse_audit_ocr.py output. Courses from a real senior audit, no identifying info.",
+  "courses": [
+    {"id": "CPSC4000"}, {"id": "CPSC4148"}, {"id": "CPSC4176"}, {"id": "MISM4168"}
+  ]
+}

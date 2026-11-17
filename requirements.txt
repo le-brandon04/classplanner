@@ -1,0 +1,25 @@
+# Story 1 — audit parsing
+pymupdf>=1.24
+pytesseract>=0.3.10
+pillow>=10.0
+pdfplumber>=0.11
+pypdf>=4.0
+
+# Stories 2-4 — graph and scheduling
+pulp>=3.0,<4.0   # 4.x is a Rust-core rewrite with an incompatible API
+networkx>=3.0
+
+# Story 5 — Excel output
+pandas>=2.0
+openpyxl>=3.1
+
+# Packaging (Windows .exe)
+pyinstaller>=6.0
+
+# Story 9 — tests.  Run them with:  python -m pytest
+pytest>=8.0
+
+# NOTE: Tesseract itself is NOT a pip package. Install the binary separately:
+#   Windows  https://github.com/UB-Mannheim/tesseract/wiki
+#   macOS    brew install tesseract
+#   Linux    sudo apt install tesseract-ocr

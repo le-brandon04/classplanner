@@ -1,0 +1,35 @@
+# Student data: NEVER commit. Audits contain names and CSU IDs (FERPA).
+*.pdf
+# ...except the synthetic test fixture, which has no real student in it.
+!data/sample_audit.pdf
+dump.txt
+audit_ocr.txt
+remaining_courses.json
+
+# Local machine config (commit config.example.json instead)
+config.json
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Build output
+build/
+dist/
+*.spec
+# ...except ours, which is source, not build output.
+# (.gitignore has no inline comments - a trailing # becomes part of the pattern.)
+!classplanner.spec
+
+# Generated plans
+*.xlsx
+
+.pytest_cache/

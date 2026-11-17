@@ -1,0 +1,30 @@
+{
+  "placeholder": true,
+
+  "_status": "PLACEHOLDER DATA. The times below are invented - they document the format and exercise the conflict solver in the tests, and they are NOT the real schedule. While \"placeholder\" is true the planner ignores this file entirely and says so in its warnings, because a fabricated clash is a hard constraint and would silently distort a plan. To turn time-conflict checking on: replace every code below with the real meeting time from the CSU schedule of classes for the term you are planning, then set \"placeholder\" to false. Meeting times change every semester, so this has to be refreshed each term.",
+
+  "_codes": {
+    "format": "days followed by one letter for the part of day",
+    "days": "MW, TR, MWF, or a single day M T W R F",
+    "M": "morning, 8am-12pm",
+    "A": "afternoon, 12pm-5pm",
+    "E": "evening, 5pm-10pm",
+    "examples": {
+      "MWM": "Monday/Wednesday morning",
+      "MWE": "Monday/Wednesday evening",
+      "TRA": "Tuesday/Thursday afternoon"
+    }
+  },
+
+  "_multiple_sections": "A course can list several codes: \"CPSC 2108\": [\"MWM\", \"TRE\"]. Two courses only conflict when EVERY section of one clashes with EVERY section of the other — otherwise the student picks a different section.",
+
+  "_online": "Online sections are out of scope. Leave them out of this file entirely.",
+
+  "sections": {
+    "CPSC 4115": "MWM",
+    "CPSC 4175": "MWM",
+    "CPSC 3125": "TRM",
+    "CPSC 3175": "TRA",
+    "CPSC 2108": ["MWM", "TRE"]
+  }
+}
